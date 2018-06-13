@@ -13,6 +13,7 @@ namespace Josephus
            return getSurvivor(survivorList, k);
         }
         private static int getSurvivor(int[] survivorList, int k)
+            //Das Reh spring hoch...
         {
             int length = survivorList.Length - 1;
             if (length == 0)
